@@ -18,9 +18,9 @@ public class Bot extends ListenerAdapter {
 
     public static void main(String[] args) throws LoginException {
 
-        String token = "ODc3OTQ3NDQ5MzI1NTQ3NTgw.YR6CRw.wJGYHukwqfsBPdvnF2l_D1LnfoI";
+        String token = " ";
         JDABuilder builder = JDABuilder.createDefault(token)
-                .setActivity(Activity.listening("to ?"));
+                .setActivity(Activity.listening("?"));
 
         JDA jda = builder.build();
         jda.addEventListener(getInstance());
